@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJEK API PERTAMA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Momo+Trust+Display&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body id="display">
+    <header>
+        <button id="mode">mode <i class="fas fa-moon"></i></button>
+        <button id="mode2">mode <i class="fas fa-sun"></i></button>
+    </header>
+    <div class="container">
+        <h1 data-aos="fade-down" data-aos-duration="1200" id="judul">TEBAK GENDER</h1>
+        <span data-aos="zoom-in" data-aos-duration="1200" id="span"><i class="fas fa-user" id="user"></i><input type="text" id="nameInput" placeholder="MASUKKAN NAMA"></span>
+        <div class="button">
+        <button id="btn" data-aos="fade-up" data-aos-duration="1000">Tebak</button>
+        <button id="ClearBtn" data-aos="fade-up" data-aos-duration="1000">bersihkan</button>
+        </div>
+    <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

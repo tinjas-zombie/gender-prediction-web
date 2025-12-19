@@ -1,0 +1,97 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+    font-weight: bold;
+    letter-spacing: .5px;
+    color: white;
+    line-height: 25px;
+    transition: all .4s;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(19, 19, 73);
+}
+
+header button {
+    top: 10px;
+    right: 10px;
+    position: fixed;
+    width: max-content;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+header button i {
+    padding: 0px;
+    margin-left: 10px;
+    width: max-content;
+}
+
+header #mode2 {
+    display: none;
+}
+
+#result {
+    text-align: center;
+    width: 80%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.container #nameInput {
+    padding: 10px;
+    min-width: 300px;
+    width: 90%;
+    max-width: 850px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.container span {
+    max-width: 900px;
+    min-width: 320px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid rgb(230, 237, 237);
+}
+
+.container span i {
+    color: rgb(255, 255, 255);
+}
+
+.container::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.button {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    letter-spacing: .2px;
+    font-family: sans-serif;
+    width: 100px;
+    cursor: pointer;
+}
